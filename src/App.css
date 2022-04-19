@@ -300,13 +300,13 @@ nav ul li {
 .services {
   text-align: center;
   padding-bottom: 2rem;
-  background-color: var(--primary-light-grey);
+  background-color: var(--primary-black);
   position: relative;
   border-bottom: 0.1875rem solid var(--primary-orange);
 }
 
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -354,13 +354,13 @@ nav ul li {
 
 /* *************** Portfolio styling ***************/
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
+  background: var(--primary-black);
   padding: 3rem 0;
   position: relative;
   border-bottom: 0.1875rem solid var(--primary-orange);
 }
 .portfolio-wrapper h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   font-size: 3rem;
   font-weight: bold;
 }
