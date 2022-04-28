@@ -539,6 +539,9 @@ texture:focus + .line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
+
+
+
 textarea:focus + .line,
 texture:focus + .line {
   width: 100%;
