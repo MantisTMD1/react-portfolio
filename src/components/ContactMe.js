@@ -8,8 +8,10 @@ const ContactMe = () => {
         emailjs.sendForm('service_id', 'template_id', e.target, 'user_TrXPs7sSN6hdlMgRRuFAG')
             .then((result) => {
                 console.log(result.text);
+                alert("Thanks for reaching out!");
             }, (error) => {
                 console.log(error.text);
+                
             });
         e.target.reset()
     };

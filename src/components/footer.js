@@ -15,7 +15,7 @@ const footer = () => {
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/MantisTMD1">Github</a>
 
 
-                <a href="../pdfs/EVAN_ST_MARTIN_-_Junior_Web_Developer.pdf"  download="EVAN_ST_MARTIN_-_Junior_Web_Developer.pdf" target="_blank">Resume(download)</a>
+               
 
 
 
