@@ -2,22 +2,11 @@ import React from "react";
 import Typed from "react-typed"
 import Particles from "react-tsparticles";
 
-const header = () => {
-    const particlesInit = (main) => {
-        console.log(main);
-    
-
-      };
-    
-      const particlesLoaded = (container) => {
-        console.log(container);
-      };
+const Header = () => {
     return (
         <>
         <Particles
         id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
         options={{
           "particles": {
             "number": {
@@ -148,4 +137,4 @@ const header = () => {
     )
 }
 
-export default header
+export default Header

@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 
-const navbar = () => {
+const Navbar = () => {
   return (
 
 
@@ -13,7 +13,7 @@ const navbar = () => {
       <div className="container">
 
         <Link smooth={true} to="home" offset={-110} className="navbar-link" href="/#">
-          <img className="logo" img src={myLogo} alt="logo..." />
+          <img className="logo" src={myLogo} alt="logo..." />
         </Link>
 
 
@@ -35,31 +35,31 @@ const navbar = () => {
             <li className="nav-item active">
 
               {/* Navbar links */}
-              <Link eventKey="1" smooth={true} to="home" isDynamic={true} offset={-110} className="nav-link smooth" href="/#">
+              <Link smooth={true} to="home" isDynamic={true} offset={-110} className="nav-link smooth" href="/#">
                 Home <span className="sr-only"></span>
               </Link>
 
             </li>
             <li className="nav-item">
-              <Link eventKey="2" smooth={true} to="about" offset={-105} className="nav-link" href="/#">
+              <Link smooth={true} to="about" offset={-105} className="nav-link" href="/#">
                 About
               </Link>
 
             </li>
             <li className="nav-item">
-              <Link eventKey="3" smooth={true} to="Services" offset={-108} className="nav-link" href="/#">
+              <Link smooth={true} to="Services" offset={-108} className="nav-link" href="/#">
                 Tech
               </Link>
 
             </li>
             <li className="nav-item">
-              <Link eventKey="4" smooth={true} to="portfolio" offset={-108} className="nav-link" href="/#">
+              <Link smooth={true} to="portfolio" offset={-108} className="nav-link" href="/#">
                 Projects
               </Link>
 
             </li>
             <li className="nav-item">
-              <Link eventKey="5" smooth={true} to="contact" offset={-107} className="nav-link" href="/#">
+              <Link smooth={true} to="contact" offset={-107} className="nav-link" href="/#">
                 Contact
               </Link>
 
@@ -72,4 +72,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const footer = () => {
+const Footer = () => {
     return (
         <div className="footer">
 
@@ -36,4 +36,4 @@ const footer = () => {
     );
 };
 
-export default footer;
+export default Footer;
