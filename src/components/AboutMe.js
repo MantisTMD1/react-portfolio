@@ -1,29 +1,29 @@
 import React from "react";
 import Author from "../me.jpg";
 
-const aboutMe = () => {
+const AboutMe = () => {
     return (
         <div id="about" className="aboutme-wrapper py-5">
             <div className="row">
-                <div className="col-lg-6 col-xm-12">
+                <div className="col-lg-6 col-12">
                     <div className="photo-wrap mb-5">
                         <img className="profile-img" src={Author} alt="Author..." />
                     </div>
                 </div>
 
-                <div className="col-lg-5 col-xm-12">
+                <div className="col-lg-5 col-12">
                     
-                    <div class="bouncing-text">
-                         <div class="a">A</div>  
-                        <div class="b">B</div>
-                        <div class="o">O</div>
-                        <div class="u">U</div>
-                        <div class="t">T</div>
-                        <div class="space">_</div>
-                        <div class="m">M</div>
-                        <div class="e">E</div>
-                        <div class="shadow"></div>
-                        <div class="shadow-two"></div>
+                    <div className="bouncing-text">
+                         <div className="a">A</div>  
+                        <div className="b">B</div>
+                        <div className="o">O</div>
+                        <div className="u">U</div>
+                        <div className="t">T</div>
+                        <div className="space">_</div>
+                        <div className="m">M</div>
+                        <div className="e">E</div>
+                        <div className="shadow"></div>
+                        <div className="shadow-two"></div>
                     </div>
 
                     <p className="about-para">
@@ -39,4 +39,4 @@ const aboutMe = () => {
     )
 };
 
-export default aboutMe
+export default AboutMe
