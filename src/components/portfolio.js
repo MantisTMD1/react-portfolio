@@ -2,12 +2,19 @@ import React from "react";
 import redditBot from "../images/Redditbot.png";
 import spotifyClone from "../images/spotifyclone.png";
 import workPlanner from "../images/notetakerapp.png";
+import recipeRescue from "../images/reciperescue.jpg";
 //reactjs pop up box//
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import "react-popupbox/dist/react-popupbox.css";
 
 
 const projects = [
+    {
+        title: "Recipe Rescue",
+        image: recipeRescue,
+        description: "An iOS app built with SwiftUI and SwiftData that turns the ingredients in your kitchen into recipe ideas, ranked by how few ingredients you're missing. Includes a shopping list, favorites, recipe search and a discover feed powered by TheMealDB.",
+        repo: "https://github.com/MantisTMD1/RecipeApp",
+    },
     {
         title: "Reddit Bot",
         image: redditBot,
