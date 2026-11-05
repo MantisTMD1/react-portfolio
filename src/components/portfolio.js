@@ -10,10 +10,11 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const projects = [
     {
-        title: "Recipe Rescue",
+        title: "Recipe Rescuer",
         image: recipeRescue,
-        description: "An iOS app built with SwiftUI and SwiftData that turns the ingredients in your kitchen into recipe ideas, ranked by how few ingredients you're missing. Includes a shopping list, favorites, recipe search and a discover feed powered by TheMealDB.",
+        description: "An iOS app, live on the App Store, built with SwiftUI and SwiftData. It turns the ingredients in your kitchen into recipe ideas ranked by how few ingredients you're missing. Includes step-by-step cooking mode with timers, your own recipes, recipe scaling, diet filters and a shopping list, with recipe data from TheMealDB.",
         repo: "https://github.com/MantisTMD1/RecipeApp",
+        appStore: "https://apps.apple.com/us/app/recipe-rescuer/id6821371384",
     },
     {
         title: "Reddit Bot",
@@ -50,6 +51,9 @@ const Portfolio = () => {
             <>
                 <img className="portfolio-image-popup" src={project.image} alt={`${project.title}...`} />
                 <p>{project.description}</p>
+                {project.appStore && (
+                    <p><b>Get the App:</b> <button className="modal-button" onClick={() => window.open(project.appStore, "_blank", "noopener,noreferrer")}>App Store</button></p>
+                )}
                 <b>Source Code:</b> <button className="modal-button" onClick={() => window.open(project.repo, "_blank", "noopener,noreferrer")}>Github Repo</button>
             </>
         );
